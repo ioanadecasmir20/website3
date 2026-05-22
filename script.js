@@ -1,11 +1,3 @@
-// Smooth scroll to contact
-function scrollToContact() {
-    document.getElementById("contact").scrollIntoView({
-        behavior: "smooth"
-    });
-}
-
-// Form interaction
 document.getElementById("contactForm").addEventListener("submit", function(e) {
     e.preventDefault();
 
